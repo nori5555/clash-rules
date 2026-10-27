@@ -1,6 +1,12 @@
 # Clash AI 规则集 —— 最全合并版
 
-生成时间：2026-10-27 · 数据源实测抓取合并
+⚙️ 由 GitHub Actions 每日 09:30（北京时间）自动重新合并上游数据并推送，订阅链接永久有效，无需手动维护。
+
+## 订阅链接（jsDelivr 加速，国内可直连）
+
+- 国外 AI 代理：`https://cdn.jsdelivr.net/gh/nori5555/clash-rules@main/AI_MERGED.list`
+- 国内 AI 直连：`https://cdn.jsdelivr.net/gh/nori5555/clash-rules@main/AI_CN_DIRECT.list`
+- raw 备用：`https://raw.githubusercontent.com/nori5555/clash-rules/main/AI_MERGED.list`
 
 ## 交付文件
 
@@ -52,4 +58,4 @@ rules:
 ```
 
 > `.mrs` 是 mihomo 专用二进制规则集；老 Clash 内核用本目录的 `AI_MERGED.list`（text 格式）+ `behavior: domain`。
-> 本目录三个 .list 为本地快照；要自动更新，把文件传到自己的 Gist/服务器/CDN 后替换 url 即可。
+> 本仓库由 GitHub Actions 自动更新（`scripts/merge_ai_rules.py` + `.github/workflows/update-rules.yml`），每天 09:30 重新从上游合并。
