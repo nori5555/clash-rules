@@ -1,0 +1,37 @@
+name: Update AI Rules
+
+on:
+  schedule:
+    # 每天 09:30 北京时间（UTC+8）= 01:30 UTC
+    - cron: '30 1 * * *'
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Merge AI rulesets
+        run: |
+          python3 scripts/merge_ai_rules.py
+
+      - name: Commit and push
+        run: |
+          git config user.name "nori5555"
+          git config user.email "nori5555@users.noreply.github.com"
+          git add AI_MERGED.list AI_MERGED_RULES.txt AI_CN_DIRECT.list
+          if git diff --cached --quiet; then
+            echo "无变更，跳过提交"
+          else
+            git commit -m "chore: auto update AI rules $(date -u +%Y-%m-%d)"
+            git push
+            echo "已推送更新"
+          fi
