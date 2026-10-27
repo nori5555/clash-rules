@@ -5,6 +5,11 @@ import urllib.request, re, os
 
 UA = {'User-Agent': 'Mozilla/5.0'}
 OUT = os.environ.get('OUTPUT_DIR', os.getcwd())  # 输出目录：Actions 里=仓库根
+
+# 上游 AI 源未覆盖的补充域名（人工维护，每次合并都会带上）
+EXTRA_DOMAINS = {
+    'labs.google.com',        # Google Muse / 各类实验性 AI 产品入口
+}
 def fetch(url, timeout=30, tries=4):
     for i in range(tries):
         try:
@@ -89,7 +94,7 @@ for name in ['AI', 'OpenAi', 'Claude', 'ClaudeAI', 'Gemini', 'Copilot']:
         print(f'    {name}: 跳过 ({e})')
 
 print('[*] 4/4 合并去重 ...')
-merged = ai_domains | bm_domains | ac_domains
+merged = ai_domains | bm_domains | ac_domains | EXTRA_DOMAINS
 merged.discard('')
 kw_all = bm_kw | ac_kw
 print(f'    域名后缀合计: {len(merged)}')
