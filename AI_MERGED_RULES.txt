@@ -126,8 +126,10 @@ DOMAIN-SUFFIX,full:copilotprodattachments.blob.core.windows.net,PROXY
 DOMAIN-SUFFIX,full:daily-cloudcode-pa.googleapis.com,PROXY
 DOMAIN-SUFFIX,full:geminiweb-pa.clients.google.com,PROXY
 DOMAIN-SUFFIX,full:geminiweb-pa.clients6.google.com,PROXY
+DOMAIN-SUFFIX,full:http-intake.logs.us5.datadoghq.com,PROXY
 DOMAIN-SUFFIX,full:notebooklm-pa.googleapis.com,PROXY
 DOMAIN-SUFFIX,full:notebooklm.googleapis.com,PROXY
+DOMAIN-SUFFIX,full:o1158394.ingest.us.sentry.io,PROXY
 DOMAIN-SUFFIX,full:o33249.ingest.sentry.io,PROXY
 DOMAIN-SUFFIX,full:o33249.ingest.us.sentry.io,PROXY
 DOMAIN-SUFFIX,full:openai.qualtrics.com,PROXY
