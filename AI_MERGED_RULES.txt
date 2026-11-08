@@ -140,6 +140,7 @@ DOMAIN-SUFFIX,full:openaicom.imgix.net,PROXY
 DOMAIN-SUFFIX,full:openaicomproductionae4b.blob.core.windows.net,PROXY
 DOMAIN-SUFFIX,full:ppl-ai-file-upload.s3.amazonaws.com,PROXY
 DOMAIN-SUFFIX,full:pplx-res.cloudinary.com,PROXY
+DOMAIN-SUFFIX,full:production-copilot-host-westus.webpubsub.azure.com,PROXY
 DOMAIN-SUFFIX,full:production-openaicom-storage.azureedge.net,PROXY
 DOMAIN-SUFFIX,full:servd-anthropic-website.b-cdn.net,PROXY
 DOMAIN-SUFFIX,full:webchannel-alkalimakersuite-pa.clients6.google.com,PROXY
@@ -157,6 +158,7 @@ DOMAIN-SUFFIX,grazie.ai,PROXY
 DOMAIN-SUFFIX,grazie.aws.intellij.net,PROXY
 DOMAIN-SUFFIX,grok.com,PROXY
 DOMAIN-SUFFIX,grok.x.com,PROXY
+DOMAIN-SUFFIX,grokbot.com,PROXY
 DOMAIN-SUFFIX,grokipedia.com,PROXY
 DOMAIN-SUFFIX,groq.com,PROXY
 DOMAIN-SUFFIX,h2o.ai,PROXY
