@@ -100,6 +100,7 @@ DOMAIN-SUFFIX,duck.ai,PROXY
 DOMAIN-SUFFIX,edgeservices.bing.com,PROXY
 DOMAIN-SUFFIX,elevenlabs.com,PROXY
 DOMAIN-SUFFIX,elevenlabs.io,PROXY
+DOMAIN-SUFFIX,elevenlabsusercontent.com,PROXY
 DOMAIN-SUFFIX,envato-static.com,PROXY
 DOMAIN-SUFFIX,envato.com,PROXY
 DOMAIN-SUFFIX,envatousercontent.com,PROXY
