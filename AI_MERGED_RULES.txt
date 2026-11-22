@@ -152,6 +152,8 @@ DOMAIN-SUFFIX,geller-pa.googleapis.com,PROXY
 DOMAIN-SUFFIX,gemini.google,PROXY
 DOMAIN-SUFFIX,gemini.google.com,PROXY
 DOMAIN-SUFFIX,gemini.gstatic.com,PROXY
+DOMAIN-SUFFIX,geminiweb-pa.clients.google.com,PROXY
+DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com,PROXY
 DOMAIN-SUFFIX,generativeai.google,PROXY
 DOMAIN-SUFFIX,generativelanguage.googleapis.com,PROXY
 DOMAIN-SUFFIX,githubcopilot.com,PROXY
@@ -203,6 +205,7 @@ DOMAIN-SUFFIX,mozilla.ai,PROXY
 DOMAIN-SUFFIX,muse.ai,PROXY
 DOMAIN-SUFFIX,notebook.google,PROXY
 DOMAIN-SUFFIX,notebook.google.com,PROXY
+DOMAIN-SUFFIX,notebooklm-pa.googleapis.com,PROXY
 DOMAIN-SUFFIX,notebooklm.google,PROXY
 DOMAIN-SUFFIX,notebooklm.google.com,PROXY
 DOMAIN-SUFFIX,notegpt.io,PROXY
@@ -269,6 +272,7 @@ DOMAIN-SUFFIX,youmind.ai,PROXY
 DOMAIN-SUFFIX,youmind.com,PROXY
 DOMAIN-SUFFIX,youmind.site,PROXY
 DOMAIN-KEYWORD,anthropic,PROXY
+DOMAIN-KEYWORD,antigravity,PROXY
 DOMAIN-KEYWORD,claude,PROXY
 DOMAIN-KEYWORD,colab,PROXY
 DOMAIN-KEYWORD,developerprofiles,PROXY

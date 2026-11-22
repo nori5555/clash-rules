@@ -155,6 +155,8 @@ geller-pa.googleapis.com
 gemini.google
 gemini.google.com
 gemini.gstatic.com
+geminiweb-pa.clients.google.com
+geminiweb-pa.clients6.google.com
 generativeai.google
 generativelanguage.googleapis.com
 githubcopilot.com
@@ -206,6 +208,7 @@ mozilla.ai
 muse.ai
 notebook.google
 notebook.google.com
+notebooklm-pa.googleapis.com
 notebooklm.google
 notebooklm.google.com
 notegpt.io
