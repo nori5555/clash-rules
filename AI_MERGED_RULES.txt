@@ -154,6 +154,7 @@ DOMAIN-SUFFIX,gemini.google.com,PROXY
 DOMAIN-SUFFIX,gemini.gstatic.com,PROXY
 DOMAIN-SUFFIX,geminiweb-pa.clients.google.com,PROXY
 DOMAIN-SUFFIX,geminiweb-pa.clients6.google.com,PROXY
+DOMAIN-SUFFIX,gemma.ai,PROXY
 DOMAIN-SUFFIX,generativeai.google,PROXY
 DOMAIN-SUFFIX,generativelanguage.googleapis.com,PROXY
 DOMAIN-SUFFIX,githubcopilot.com,PROXY
